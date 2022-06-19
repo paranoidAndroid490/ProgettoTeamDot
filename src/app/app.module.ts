@@ -6,7 +6,10 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { YachtsComponent } from './yachts/yachts.component';
 import { OfferteComponent } from './offerte/offerte.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ModificaYachtComponent } from './modifica-yacht/modifica-yacht.component';
+import { MaterialModule } from './material.modules';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -16,9 +19,14 @@ import { ModificaYachtComponent } from './modifica-yacht/modifica-yacht.componen
     OfferteComponent,
     ModificaYachtComponent
   ],
+
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    MaterialModule,
+    FormsModule,
+    BrowserAnimationsModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]
