@@ -1,0 +1,42 @@
+{
+  "yachts": [
+    {
+      "id": 1,
+      "nome": "2022 Galeon 680 Fly",
+      "descrizione": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid cupiditate unde ratione inventore qui, harum dolorem. Exercitationem provident maiores, autem, voluptatibus, laboriosam dolorum ipsa libero officia cumque possimus illo corrupti.",
+      "imgUrl":"https://images.unsplash.com/photo-1567899378494-47b22a2ae96a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80",
+      "costoGiorn":10000,
+      "inOfferta":true
+
+
+    },
+    {
+      "id": 2,
+      "nome": "2021 Princess S78 Sport Bridge",
+      "descrizione": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid cupiditate unde ratione inventore qui, harum dolorem. Exercitationem provident maiores, autem, voluptatibus, laboriosam dolorum ipsa libero officia cumque possimus illo corrupti.",
+      "imgUrl":"https://images.unsplash.com/photo-1621277224630-81d9af65e40c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80",
+      "costoGiorn":20000,
+      "inOfferta":false
+
+    },
+    {
+      "id": 3,
+      "nome": "2020 PerMare AMER F 100e",
+      "descrizione": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid cupiditate unde ratione inventore qui, harum dolorem. Exercitationem provident maiores, autem, voluptatibus, laboriosam dolorum ipsa libero officia cumque possimus illo corrupti.",
+      "imgUrl":"https://images.unsplash.com/photo-1569263979104-865ab7cd8d13?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1748&q=80",
+      "costoGiorn":15000,
+      "inOfferta":false
+
+    },
+    {
+      "id": 4,
+      "nome": "2019 PerMare AMER A 50d",
+      "descrizione": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid cupiditate unde ratione inventore qui, harum dolorem. Exercitationem provident maiores, autem, voluptatibus, laboriosam dolorum ipsa libero officia cumque possimus illo corrupti.",
+      "imgUrl":"https://images.unsplash.com/photo-1562281302-809108fd533c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80",
+      "costoGiorn":8000,
+      "inOfferta":true
+
+    }
+  ]
+}
+
