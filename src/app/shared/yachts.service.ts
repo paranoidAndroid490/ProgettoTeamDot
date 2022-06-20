@@ -1,11 +1,13 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
+import { Yacht } from './yacht.model';
 
 @Injectable({
   providedIn: 'root'
 })
 export class YachtsService {
 
+  yachts: Yacht[] = []
 
   constructor(private http:HttpClient) { }
 
@@ -35,4 +37,20 @@ export class YachtsService {
   //     return mieiUtentiArray
   //   }))
   // }
+
+  getYachtList(yachtList:Yacht[]){
+    console.log(yachtList)
+    this.yachts = yachtList
+  }
+
+  getYachtById(id: number){
+    const yacht = this.yachts.find(
+      (y) => {
+        return y.id === id
+      }
+      )
+
+    return yacht;
+  }
+
 }

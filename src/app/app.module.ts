@@ -11,6 +11,7 @@ import { ModificaYachtComponent } from './modifica-yacht/modifica-yacht.componen
 import { MaterialModule } from './material.modules';
 import { FormsModule } from '@angular/forms';
 import { HttpClient } from '@angular/common/http';
+import { YachtComponent } from './yacht/yacht.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { HttpClient } from '@angular/common/http';
     HomeComponent,
     YachtsComponent,
     OfferteComponent,
-    ModificaYachtComponent
+    ModificaYachtComponent,
+    YachtComponent
   ],
 
   imports: [

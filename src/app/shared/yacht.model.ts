@@ -15,6 +15,6 @@ this.inOfferta = inOfferta;
 this.img = img
   }
 
-  modificaYacht(nome?:string,descrizione?:string,costoGiorn?:number,inOfferta?:boolean){}
+  modificaYacht(nome?:string,descrizione?:string,costoGiorn?:number,inOfferta?:boolean,img?:boolean){}
 
 }
