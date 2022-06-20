@@ -20,10 +20,12 @@ export class YachtComponent implements OnInit {
     // this.server = this.serverService.getServerById(1);
     // vado a prendere dinamicamente il mio id attraverso Activated Route
     const id = +this.ActRoute.snapshot.params['id'];
+
     //ATT: quando recupero qualcosa da un url recupero sempre string
 
     this.yacht = this.yachtsService.getYachtById(id);
-    console.log(this.yacht)
+
+
 
 
     //l'id che sta arrivando è di tipo Observable -> mi serve il .subscribe()
@@ -34,6 +36,9 @@ export class YachtComponent implements OnInit {
           }
         );
 
+  }
+  onModYacht(){
+    this.router.navigate(['edit/'+this.yacht.id],{relativeTo:this.ActRoute})
   }
 
 }

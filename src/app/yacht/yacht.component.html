@@ -11,5 +11,15 @@
       {{yacht.descrizione}}
     </p>
   </mat-card-content>
-
+  <mat-card-actions>
+    <button class="btn btn-success mt-2" mat-button (click)="onModYacht()">Modifica</button>
+  </mat-card-actions>
 </mat-card>
+
+<div class="container">
+  <!-- SELETTORE PER ATTUARE LA ROUTING:
+    dentro router-outelet verranno renderizzati i singoli component-->
+
+  <router-outlet></router-outlet>
+
+</div>

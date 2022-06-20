@@ -1,73 +1,11 @@
+<p>modifica-yacht works!</p>
+
+
 <div class="container">
-
-  <div class="row">
-    <div class="col-9">
-      <h2 class="mt-5">Personalizza il tuo Yatch!</h2>
-<hr>
-      <form class="mt-3" #yatchForm = "ngForm">
-
-
-          <mat-form-field appearance="fill">
-            <mat-label>Nome:</mat-label>
-            <input type="text"  placeholder="Modifica il nome"
-            matInput
-            ngModel
-            id="nomeBarca"
-            name="nome"
-            #nomeInput = "ngModel">
-          </mat-form-field>
-<br>
-          <mat-form-field appearance="fill">
-            <mat-label>Descrizione Yatch</mat-label>
-            <textarea
-            rows="15"
-            placeholder="Modifica Descrizione"
-            matInput
-            ngModel
-            id="descBarca"
-            name="desc"
-            #nomeText="ngModel"></textarea>
-          </mat-form-field>
-<br>
-          <mat-form-field appearance="fill" floatLabel="always">
-            <mat-label>Prezzo</mat-label>
-            <input
-            matInput
-            type="number"
-            id="prezzoBarca"
-            placeholder="0">
-            <span matPrefix>€&nbsp;</span>
-            <span matSuffix>.00</span>
-          </mat-form-field>
-<br>
-          <mat-form-field appearance="fill">
-            <mat-label>Promo</mat-label>
-            <mat-select>
-              <mat-option value="y">In Offerta</mat-option>
-              <mat-option value="n">Non in Offerta</mat-option>
-            </mat-select>
-          </mat-form-field>
-<br>
-          <mat-form-field>
-            <mat-label>Carica Immagine:</mat-label>
-            <input type="text"
-            placeholder="Carica nuova immagine"
-            matInput
-            ngModel
-            id="caricaImage"
-            name="image"
-            #nomeUrl = "ngModel">
-          </mat-form-field>
-
-      <button mat-button color="primary" type="submit">Aggiorna Info</button>
-
-      </form>
-    </div>
-  </div>
-
   <!-- SELETTORE PER ATTUARE LA ROUTING:
     dentro router-outelet verranno renderizzati i singoli component-->
 
   <router-outlet></router-outlet>
 
 </div>
+

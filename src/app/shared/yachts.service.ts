@@ -16,6 +16,10 @@ export class YachtsService {
     return this.http.get(this.url+'/yachts')
   }
 
+  putData(yacht){
+    this.http.put(this.url+'/yachts/'+yacht.id, yacht)
+  }
+
   // creaUtente(email:string,statoCorso:string,nomeCorso:string){
   //   const postUtente = new Utente(email,statoCorso,nomeCorso)
 
@@ -39,7 +43,6 @@ export class YachtsService {
   // }
 
   getYachtList(yachtList:Yacht[]){
-    console.log(yachtList)
     this.yachts = yachtList
   }
 

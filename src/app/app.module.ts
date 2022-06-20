@@ -12,6 +12,7 @@ import { MaterialModule } from './material.modules';
 import { FormsModule } from '@angular/forms';
 import { HttpClient } from '@angular/common/http';
 import { YachtComponent } from './yacht/yacht.component';
+import { EditComponent } from './yacht/edit/edit.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { YachtComponent } from './yacht/yacht.component';
     YachtsComponent,
     OfferteComponent,
     ModificaYachtComponent,
-    YachtComponent
+    YachtComponent,
+    EditComponent
   ],
 
   imports: [

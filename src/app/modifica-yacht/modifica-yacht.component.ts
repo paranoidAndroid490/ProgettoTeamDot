@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute, Params, Router } from '@angular/router';
+import { Yacht } from '../shared/yacht.model';
+import { YachtsService } from '../shared/yachts.service';
 
 @Component({
   selector: 'app-modifica-yacht',
@@ -7,9 +10,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ModificaYachtComponent implements OnInit {
 
-  constructor() { }
+
+  constructor(private yachtsService: YachtsService,
+    private ActRoute: ActivatedRoute,
+    private router: Router) { }
+
 
   ngOnInit(): void {
+
   }
 
 }
